@@ -451,4 +451,4 @@ Route::get('eliminar_jefe_{id}',[
 
 //oscar palala
 //asd
-
+//123
