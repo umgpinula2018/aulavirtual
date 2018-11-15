@@ -448,3 +448,5 @@ Route::get('eliminar_jefe_{id}',[
     'uses'  => 'AdminController@destroyJefe',
     'as'    => 'eliminarJefe'
 ]);
+
+//oscar palala
