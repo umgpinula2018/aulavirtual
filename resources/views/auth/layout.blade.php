@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INTEC - Aula virtual</title>
+    <title>Aula virtual</title>
 
     {!! Html::style('css/bootstrap.css') !!}
     {!! Html::style('font-awesome/css/font-awesome.css') !!}
@@ -49,7 +49,7 @@
     <hr/>
     <div class="row">
         <div class="col-md-6" align="justify">
-            <strong style="color: white">Sitio web desarrollado por: Oscar Palala</strong>
+            <strong style="color: white">Sitio web desarrollado por: Oscar Rodriguez</strong>
         </div>
         <div class="col-md-4 text-right">
             <strong><small style="color:#ff8000">Copyright © 2018</small></strong>
