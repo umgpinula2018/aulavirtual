@@ -48,9 +48,7 @@
     </div>
     <hr/>
     <div class="row">
-        <div class="col-md-6" align="justify">
-            <strong style="color: white">Sitio web desarrollado por: Oscar Rodriguez</strong>
-        </div>
+        
         <div class="col-md-4 text-right">
             <strong><small style="color:#ff8000">Copyright © 2018</small></strong>
         </div>
