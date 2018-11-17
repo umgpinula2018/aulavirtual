@@ -198,7 +198,7 @@ class AdminController extends Controller
         $path = public_path().trim(' /fotosUsuarios/ ');
         $ext = $file->getClientOriginalExtension();
         $file_name = $request->input('id_user').".".$ext;
-        unlin($path.$file_name);
+        unlink($path.$file_name);
         $file->move($path , $file_name);
         //Tarea::destroy($id);
         Session::flash('message2','Fotografia Subida...');
