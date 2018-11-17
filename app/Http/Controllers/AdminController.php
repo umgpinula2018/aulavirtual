@@ -173,7 +173,7 @@ class AdminController extends Controller
         $validar = CalificarTareas::where('tarea_id',$request->input('tarea_id'))->where('alumno_id',$request->input('alumno'))->first();
         if(!$validar){
             $file = $request->file('file');
-            $path = public_path().trim(' /tareas/ ');
+            $path = public_path().trim(' / tareas/ ');
             $ext = $file->getClientOriginalExtension();
             $file_name = time().$request->input('tarea_id').$request->input('alumno_id').".".$ext;
             $file->move($path , $file_name);
@@ -198,6 +198,7 @@ class AdminController extends Controller
         $path = public_path().trim(' /fotosUsuarios/ ');
         $ext = $file->getClientOriginalExtension();
         $file_name = $request->input('id_user').".".$ext;
+        unlin($path.$file_name);
         $file->move($path , $file_name);
         //Tarea::destroy($id);
         Session::flash('message2','Fotografia Subida...');
