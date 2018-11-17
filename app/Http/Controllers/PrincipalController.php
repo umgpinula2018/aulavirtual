@@ -127,10 +127,10 @@ class PrincipalController extends Controller
             return redirect()->back()->withInput()->withErrors($v->errors());
         }
         $file = Input::file('file');
-        $path = public_path().trim(' \tareas\ ');
+        $path = public_path().trim(' /tareas/ ');
         $file_name = $file->getClientOriginalName();
         $file->move($path , $file_name);
-        $path2 = trim(' tareas\ ');
+        $path2 = trim(' tareas/ ');
 
         $tarea->docente_id   = Input::get('docente_id');
         $tarea->materia_id   = Input::get('curso');
