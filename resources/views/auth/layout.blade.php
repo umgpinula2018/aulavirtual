@@ -27,12 +27,7 @@
         <div class="col-md-6">
             <h1 class="font-bold" style="font-size: 60px; color: #ff8000; font-weight: bold"> INTEC</h1>
 
-            <p align="justify">
-
-            Bienvenidos a aula virtual de la academia de computacion INTEC.
-
-        </p>
-
+           
         <p align="justify">
             El portal le permitira interactuar virtualmente para eficientar los procesos de tareas, notas, pagos, A cualquier hora y en cualquier momento.
         </p>
